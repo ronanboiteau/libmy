@@ -69,7 +69,6 @@ SRCS_FILES	= get_next_line.c			\
 		  my_find_prime_sup.c			\
 		  my_free_2d_tab.c			\
 		  my_is_prime.c				\
-		  my_itoa.c				\
 		  my_max_int_tab.c			\
 		  my_min_int_tab.c			\
 		  my_power.c				\
@@ -88,7 +87,6 @@ SRCS_FILES	= get_next_line.c			\
 		  my_str_to_wordtab.c			\
 		  my_strupcase.c			\
 		  my_swap.c				\
-		  my_uitoa.c				\
 		  nmatch.c				\
 		  $(CHAR_IS)				\
 		  $(ENV)				\
