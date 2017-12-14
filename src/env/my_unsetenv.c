@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "my.h"
 
-static t_uint	_get_var_pos(char **env, char *to_unset)
+static t_uint	get_var_pos(char **env, char *to_unset)
 {
   t_uint	pos;
 
@@ -22,7 +22,7 @@ void		my_unsetenv(char ***env, char *to_unset)
   char		**new_env;
 
   new_env = *env;
-  to_unset_pos = _get_var_pos(new_env, to_unset);
+  to_unset_pos = get_var_pos(new_env, to_unset);
   if (my_getenv(new_env, to_unset) == NULL)
     return ;
   idx = 0;
