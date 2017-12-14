@@ -2,19 +2,10 @@ NAME	 = libmy.a
 
 RM	 = rm -f
 
-INC_DIR		= include/
-INC_FILES	= colors.h		\
-		  get_next_line.h	\
-		  my.h			\
-		  my_macro.h		\
-		  my_typedef.h		\
-		  printf_flags.h	\
-		  printf_puts.h		\
-		  string.h
-INC		= $(addprefix $(INC_DIR), $(INC_FILES))
+IDIR	= include/
 
 CC	 = gcc
-CFLAGS	+= -I $(INC_DIR)
+CFLAGS	+= -I $(IDIR)
 CFLAGS	+= -Wall -Wextra
 CFLAGS	+= -Wpedantic -Wno-long-long
 CFLAGS	+= -Werror
