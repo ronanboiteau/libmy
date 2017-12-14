@@ -1,3 +1,4 @@
+#include <stdbool.h>
 #include <stdlib.h>
 #include "my.h"
 #include "printf_flags.h"

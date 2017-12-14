@@ -40,7 +40,7 @@ PRINTF_FILES	= compare_char.c	\
 		  my_putnbr_base.c	\
 		  my_put_nbr.c		\
 		  my_putstr.c		\
-		  my_showstr.c		\
+		  my_showstr.c
 PRINTF		= $(addprefix $(PRINTF_DIR), $(PRINTF_FILES))
 
 STR_IS_DIR	= my_str_is/

@@ -13,6 +13,12 @@ typedef struct	s_flag
   char		flag_char;
 }		t_flag;
 
+typedef struct	s_cstring
+{
+  const char	*str;
+  unsigned int	idx;
+}		t_cstring;
+
 int		_char_isflag(const char letter, const t_flag *flags);
 int		_char_isletter(const char letter);
 t_uint		_print_char(int fd, t_uint printed, va_list ap);
