@@ -31,7 +31,7 @@ gcc main.c -L lib/ -l my -I lib/include/
 
 Here is a list of all of libmy's functions' prototypes:
 
-```clike
+```cpp
 char	*get_next_line(int const fd);
 int	match(char *str1, char *str2);
 int	my_atoi(const char *str);
