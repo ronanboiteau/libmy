@@ -34,6 +34,7 @@ Here is a list of all of libmy's functions' prototypes:
 ```cpp
 char	*get_next_line(int const fd);
 int	match(char *str1, char *str2);
+float	my_atof(const char *str);
 int	my_atoi(const char *str);
 int	my_char_isalpha(const char letter);
 int	my_char_islower(const char letter);

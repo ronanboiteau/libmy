@@ -54,6 +54,7 @@ STR_IS		= $(addprefix $(STR_IS_DIR), $(STR_IS_FILES))
 SRCS_DIR	= src/
 SRCS_FILES	= get_next_line.c			\
 		  match.c				\
+		  my_atof.c				\
 		  my_atoi.c				\
 		  my_cmp.c				\
 		  my_epur_str.c				\
