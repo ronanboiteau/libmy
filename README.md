@@ -29,7 +29,7 @@ gcc main.c -L lib/ -l my -I lib/include/
 
 ## Functions
 
-Here is a list of all of libmy's functions' prototypes:
+Here is a list of all libmy function prototypes:
 
 ```cpp
 char	*get_next_line(int const fd);
