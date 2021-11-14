@@ -83,6 +83,3 @@ void	my_unsetenv(char ***env, char *to_unset);
 int	nmatch(char *str1, char *str2);
 ```
 
-## Author
-
-* **Ronan Boiteau** ([GitHub](https://github.com/ronanboiteau) / [LinkedIn](https://www.linkedin.com/in/ronanboiteau/))
